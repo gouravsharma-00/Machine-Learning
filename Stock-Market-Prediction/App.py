@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the Model
-model = joblib.load("./public/Stock_market_prediction.pkl")
+model = joblib.load("Stock-Market-Prediction/public/Stock_market_prediction.pkl")
 
 # Custom CSS for sleek design
 st.markdown("""
