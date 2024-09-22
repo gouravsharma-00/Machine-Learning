@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np 
 
 # Load the model 
-model = joblib.load('Machine-Learning/Fuel-Prediction/public/linear_regression_model.pkl')
+model = joblib.load('Fuel-Prediction/public/linear_regression_model.pkl')
 
 # App Title 
 st.title('Aircraft Fuel Consumption Predictor')
