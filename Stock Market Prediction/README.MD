@@ -3,7 +3,7 @@
 
 This is a **Stock Market Predictor App** built using **Streamlit** and a pre-trained Machine Learning model. The app predicts stock prices based on input data such as **Opening Price**, **High Price**, **Low Price**, and **Volume**.
 
-# ![Stock Market Predictor App](Stock Market Prediction/public/App_photo.PNG) <!-- Add a screenshot of the app here -->
+# ![Stock Market Predictor App](https://github.com/gouravsharma-00/Machine-Learning/blob/main/Stock%20Market%20Prediction/public/App_photo.PNG) <!-- Add a screenshot of the app here -->
 
 ## 🚀 Features
 - Predicts stock prices based on historical data
