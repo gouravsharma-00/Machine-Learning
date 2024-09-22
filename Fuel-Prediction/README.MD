@@ -70,7 +70,7 @@ Once all the dependencies are installed, you can run the app with the following 
 streamlit run App.py
 ```
 
-This will start a local web server, and you can access the web app by navigating to the link provided in the terminal (usually \`http://localhost:8501/\`).
+This will start a local web server, and you can access the web app by navigating to the link provided in the terminal (usually `http://localhost:8501`).
 
 ## Data
 
