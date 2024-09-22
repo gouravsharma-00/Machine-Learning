@@ -1,5 +1,8 @@
 # Fuel Consumption Prediction Model
-
+---
+Try The App 😊
+[Fuel-Prediction App](https://gouravsharma-fuel-prediction.streamlit.app/)
+---
 This project predicts fuel consumption for flights based on the following features:
 - Number of passengers
 - Distance traveled
