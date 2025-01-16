@@ -5,12 +5,13 @@ from PIL import Image
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
-    model  = tf.keras.models.load_model('Plant_Disease_Prediction/trained_model.keras')
-    image = tf.keras.preprocessing.image.load_img(test_image,target_size=(128, 128))
-    input_arr = tf.keras.preprocessing.image.img_to_array(image)
-    input_arr = np.array([input_arr]) #Convert single image to a batch
+    model  = tf.keras.models.load_model('trained_model.keras')
+    image = tf.keras.utils.load_img(test_image, target_size=(180,180))
+    input_arr = tf.keras.utils.img_to_array(image)
+    input_arr = tf.expand_dims(input_arr, 0) #Convert single image to a batch
     prediction = model.predict(input_arr)
-    result_index = np.argmax(prediction)
+    s = tf.nn.softmax(prediction[0])
+    result_index = np.argmax(s)
     return result_index
 
 #Sidebar
