@@ -59,7 +59,7 @@ elif(app_mode=="About"):
 elif(app_mode=="Disease Recognition"):
     st.header("Disease Recognition")
     test_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png", "gif"])
-    if uploaded_file is not None:
+    if test_image is not None:
         img = Image.open(uploaded_file)
     if(st.button("Show Image")):
         st.image(img,use_column_width=True)
