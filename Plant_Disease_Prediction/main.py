@@ -58,14 +58,16 @@ elif(app_mode=="About"):
 #Prediction Page
 elif(app_mode=="Disease Recognition"):
     st.header("Disease Recognition")
-    test_image = st.file_uploader("Choose an Image:")
+    test_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png", "gif"])
+    if uploaded_file is not None:
+        img = Image.open(uploaded_file)
     if(st.button("Show Image")):
-        st.image(test_image,use_column_width=True)
+        st.image(img,use_column_width=True)
     #Predict Button
     if(st.button("Predict")):
         with st.spinner("Please Wait.."):
             st.write("Our Prediction")
-            result_index = model_prediction(test_image)
+            result_index = model_prediction(img)
             #Define Class
             class_name = ['Apple___Apple_scab',
     'Apple___Black_rot',
