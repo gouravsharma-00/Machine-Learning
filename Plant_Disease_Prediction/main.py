@@ -19,7 +19,7 @@ if uploaded_file is not None:
 
 
 
-l = ['Tomato___Tomato_mosaic_virus', 'Tomato___healthy']
+l = ['mosaic virus (वायरस)', 'आचा है']
 
 #Prediction
 if st.button("Predict"):
