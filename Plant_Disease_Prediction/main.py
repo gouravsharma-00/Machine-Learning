@@ -23,7 +23,7 @@ class_names = ['Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_r
 # Prediction
 if st.button("Predict"):
     img = tf.keras.utils.load_img(
-        uploaded_file, target_size=(img_height, img_width)
+        uploaded_file, target_size=(180, 180)
     )
     # print(img)
     img_array = tf.keras.utils.img_to_array(img)
