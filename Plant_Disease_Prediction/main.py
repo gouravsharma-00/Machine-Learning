@@ -8,7 +8,7 @@ import tensorflow as tf
 # Load the Model
 # model = joblib.load("Plant_Disease_Prediction/plant.pkl")
 from keras.models import load_model
-model = load_model("Plant_Disease_Prediction/plant.pkl")
+model = load_model("Plant_Disease_Prediction/leaf.pkl")
 
 st.title("Plant Disease Prediction Model")
 
