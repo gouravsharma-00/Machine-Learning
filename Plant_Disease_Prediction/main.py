@@ -7,8 +7,8 @@ import tensorflow as tf
 
 # Load the Model
 model = joblib.load("Plant_Disease_Prediction/leaf.pkl")
-from keras.models import load_model
-model.save("Plant_Disease_Prediction/leaf.keras")
+# from keras.models import load_model
+# model.save("Plant_Disease_Prediction/leaf.keras")
 
 st.title("Plant Disease Prediction Model")
 
