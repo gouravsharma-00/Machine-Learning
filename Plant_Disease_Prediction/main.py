@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the Model
-model = joblib.load("Plant_Disease_Prediction/leaf.pkl")
+model = joblib.load("Plant_Disease_Prediction/plant.pkl")
 
 st.title("Plant Disease Prediction Model")
 
